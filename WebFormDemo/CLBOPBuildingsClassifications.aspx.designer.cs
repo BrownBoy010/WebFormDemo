@@ -11,7 +11,7 @@ namespace WebFormDemo
 {
 
 
-    public partial class CLBOPLocations
+    public partial class CLBOPBuildingsClassifications
     {
 
         /// <summary>
@@ -24,13 +24,31 @@ namespace WebFormDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnAddNewLocation control.
+        /// orderPrefillButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddNewLocation;
+        protected global::System.Web.UI.WebControls.Button orderPrefillButton;
+
+        /// <summary>
+        /// addBuildingButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button addBuildingButton;
+
+        /// <summary>
+        /// recordBuildingsButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button recordBuildingsButton;
 
         /// <summary>
         /// Button1 control.

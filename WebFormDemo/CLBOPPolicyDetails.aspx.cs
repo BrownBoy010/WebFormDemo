@@ -64,5 +64,10 @@ namespace WebFormDemo
         {
             Response.Redirect("~/CLBOPBusinessOwnersDetails.aspx");
         }
+
+        protected void btnAddNew_Click1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

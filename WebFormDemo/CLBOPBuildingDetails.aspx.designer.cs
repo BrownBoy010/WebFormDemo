@@ -11,7 +11,7 @@ namespace WebFormDemo
 {
 
 
-    public partial class CLBOPBusinessOwnersCoverages
+    public partial class CLBOPBuildingDetails
     {
 
         /// <summary>
@@ -24,175 +24,166 @@ namespace WebFormDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// lblLLPO control.
+        /// lblBuildingLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblLLPO;
+        protected global::System.Web.UI.WebControls.Label lblBuildingLocation;
 
         /// <summary>
-        /// lblOPND control.
+        /// ddlBuildingLocation control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOPND;
+        protected global::System.Web.UI.WebControls.DropDownList ddlBuildingLocation;
 
         /// <summary>
-        /// ddOPND control.
+        /// lblBuildingDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddOPND;
+        protected global::System.Web.UI.WebControls.Label lblBuildingDescription;
 
         /// <summary>
-        /// ddlLLPO0 control.
+        /// txtBuildingDescription control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlLLPO0;
+        protected global::System.Web.UI.WebControls.TextBox txtBuildingDescription;
 
         /// <summary>
-        /// lblOPPMEL control.
+        /// lblBuildingNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblOPPMEL;
+        protected global::System.Web.UI.WebControls.Label lblBuildingNumber;
 
         /// <summary>
-        /// lblEEJ control.
+        /// txtBuildingNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEEJ;
+        protected global::System.Web.UI.WebControls.TextBox txtBuildingNumber;
 
         /// <summary>
-        /// ddEEJ control.
+        /// lblPropertyType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddEEJ;
+        protected global::System.Web.UI.WebControls.Label lblPropertyType;
 
         /// <summary>
-        /// ddOPPMEL0 control.
+        /// ddlPropertyType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddOPPMEL0;
+        protected global::System.Web.UI.WebControls.DropDownList ddlPropertyType;
 
         /// <summary>
-        /// lblGAL control.
+        /// lblCommunityClassification control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblGAL;
+        protected global::System.Web.UI.WebControls.Label lblCommunityClassification;
 
         /// <summary>
-        /// lblEPIND control.
+        /// ddlCommunityClassification control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEPIND;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCommunityClassification;
 
         /// <summary>
-        /// ddGAL control.
+        /// lblConstructionType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddGAL;
+        protected global::System.Web.UI.WebControls.Label lblConstructionType;
 
         /// <summary>
-        /// ddEPIND control.
+        /// ddlConstructionType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddEPIND;
+        protected global::System.Web.UI.WebControls.DropDownList ddlConstructionType;
 
         /// <summary>
-        /// lblPOAL control.
+        /// lblYearOfConstruction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPOAL;
+        protected global::System.Web.UI.WebControls.Label lblYearOfConstruction;
 
         /// <summary>
-        /// ddPOAL control.
+        /// txtYearOfConstruction control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddPOAL;
+        protected global::System.Web.UI.WebControls.TextBox txtYearOfConstruction;
 
         /// <summary>
-        /// lblDeductible control.
+        /// lblAutomaticSprinklerSystem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDeductible;
+        protected global::System.Web.UI.WebControls.Label lblAutomaticSprinklerSystem;
 
         /// <summary>
-        /// ddDeductible control.
+        /// chkAutomaticSprinklerSystem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddDeductible;
+        protected global::System.Web.UI.WebControls.CheckBox chkAutomaticSprinklerSystem;
 
         /// <summary>
-        /// lblDeductibleType control.
+        /// lblRoofType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDeductibleType;
+        protected global::System.Web.UI.WebControls.Label lblRoofType;
 
         /// <summary>
-        /// ddDeductibleType control.
+        /// ddlRoofType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddDeductibleType;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.DropDownList ddlRoofType;
 
         /// <summary>
         /// Button1 control.
@@ -202,5 +193,14 @@ namespace WebFormDemo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// Button2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }

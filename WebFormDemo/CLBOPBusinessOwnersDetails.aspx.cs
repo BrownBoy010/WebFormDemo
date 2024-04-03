@@ -23,5 +23,10 @@ namespace WebFormDemo
         {
             Response.Redirect("~/CLBOPBusinessOwnersCoverages.aspx");
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPPolicyDetails.aspx");
+        }
     }
 }

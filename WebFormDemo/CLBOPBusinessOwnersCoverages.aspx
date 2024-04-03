@@ -89,6 +89,8 @@
 
         <br />
         <br />
+        <asp:Button ID="Button2" runat="server" Text="Previous" OnClick="Button2_Click" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" />
 
     </form>

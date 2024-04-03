@@ -13,5 +13,15 @@ namespace WebFormDemo
         {
 
         }
+
+        protected void previousButton_Click_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPLocations.aspx");
+        }
+
+        protected void nextButton_Click_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPLocationCoverages.aspx");
+        }
     }
 }
