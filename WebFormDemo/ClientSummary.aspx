@@ -79,7 +79,7 @@
                 <asp:Button ID="Button1" runat="server" Text="Add New Quote" OnClick="Button1_Click" />
             </h3>
             <p>
-                <asp:Button ID="Button2" runat="server" Text="Active" OnClick="Button2_Click" />
+                 <asp:Button ID="Button2" runat="server" Text="Active" OnClick="Button2_Click" />
                 <asp:Button ID="Button3" runat="server" Text="All" OnClick="Button2_Click" />
                 <asp:Button ID="Button4" runat="server" Text="Commercial Auto" OnClick="Button2_Click" />
                 <asp:Button ID="Button5" runat="server" Text="Businessowners" OnClick="Button2_Click" />

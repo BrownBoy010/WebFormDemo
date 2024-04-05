@@ -7,26 +7,16 @@ using System.Web.UI.WebControls;
 
 namespace WebFormDemo
 {
-    public partial class CLBOLocationAdditionalCoverages : System.Web.UI.Page
+    public partial class CLBOPMortgagee : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-
-        protected void Button2_Click(object sender, EventArgs e)
+      
+        protected void btnSave_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPLocationCoverages.aspx");
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPStateSpecificInfo.aspx");
-        }
-
-        protected void btnAll_Click(object sender, EventArgs e)
-        {
-
+            
         }
         protected void ButtonPolicyDetails_Click(object sender, EventArgs e)
         {
@@ -40,7 +30,7 @@ namespace WebFormDemo
 
         protected void ButtonLocation_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPLocationsDetails.aspx");
+            Response.Redirect("~/CLBOPLocations.aspx");
         }
 
         protected void ButtonStateSpecificInfo_Click(object sender, EventArgs e)
@@ -71,6 +61,46 @@ namespace WebFormDemo
         protected void ButtonReview_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/LOBReview.aspx");
+        }
+
+        protected void AddMortgagee_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void SaveMortgagee_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Unnamed3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ddlOptions_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Unnamed3_Click1(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ddlDropdown1_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            
+        }
+
+        protected void Previous_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBlankets.aspx");
+        }
+
+        protected void Continue_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPUWQuestions.aspx");
         }
     }
 }
