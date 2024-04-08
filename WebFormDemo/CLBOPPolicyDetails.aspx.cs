@@ -57,5 +57,16 @@ namespace WebFormDemo
             ModalPopupExtender1.Show();
         }
 
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBusinessOwnersDetails.aspx");
+        }
     }
 }
