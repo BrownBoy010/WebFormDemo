@@ -13,5 +13,42 @@ namespace WebFormDemo
         {
 
         }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            divEditBuilding.Style["display"] = "block";
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void btnSave_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("~/CLBOPBuildingCoverages.aspx");
+        }
+
+        protected void btnRemoveCoverage_Click(object sender, EventArgs e)
+        {
+
+            Response.Redirect("~/CLBOPBuildingCoverages.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBuildingDetails.aspx");
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBuildingAdditionalCoverages.aspx");
+        }
+       
     }
+    
 }

@@ -5,10 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <h1>Business Owners</h1>
+
 </head>
 <body>
+
     <form id="form1" runat="server">
+
+        <h1>Business Owners</h1>
         <div>
             <a href="CLBOPBusinessOwnersDetails.aspx">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPBusinessOwnersCoverages.aspx">Coverages</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPBusinessOwnersAddlCoverages.aspx">Additional Coverages</a>
         </div>
@@ -34,7 +37,8 @@
         <br />
         <br />
         <asp:Label ID="lblOPPMEL" runat="server" Text="Optional per Person Medical Expenses Limit"></asp:Label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="lblEEJ" runat="server" Text="Exempt Employee/Jobs"></asp:Label>&nbsp; <br />
+        <asp:Label ID="lblEEJ" runat="server" Text="Exempt Employee/Jobs"></asp:Label>&nbsp;
+        <br />
         <asp:DropDownList ID="ddEEJ" runat="server" OnSelectedIndexChanged="ddlOptions_SelectedIndexChanged" Width="170px" Height="18px">
             <asp:ListItem Text="Type 1" Value="Type 1"></asp:ListItem>
             <asp:ListItem Text="Type 2" Value="Type 2"></asp:ListItem>
@@ -90,7 +94,7 @@
         <br />
         <br />
         <asp:Button ID="Button2" runat="server" Text="Previous" OnClick="Button2_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Button ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" />
 
     </form>

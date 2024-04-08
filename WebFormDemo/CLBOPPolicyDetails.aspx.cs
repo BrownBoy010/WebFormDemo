@@ -40,7 +40,7 @@ namespace WebFormDemo
         }
         protected void btnAddNew_Click(object sender, EventArgs e)
         {
-            additionalForm.Visible = true; 
+           
         }
 
         protected void ddlOptions_SelectedIndexChanged(object sender, EventArgs e)
@@ -50,10 +50,14 @@ namespace WebFormDemo
         protected void btnSave_Click(object sender, EventArgs e)
         {
             
-            string companyName = txtCompanyName.Text;
-            string country = txtCountry.Text;
             
         }
+        protected void btnShowPopup_Click(object sender, EventArgs e)
+        {
+            ModalPopupExtender1.Show();
+        }
+
+        
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {            
@@ -69,5 +73,6 @@ namespace WebFormDemo
         {
 
         }
+
     }
 }

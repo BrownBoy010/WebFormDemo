@@ -13,5 +13,21 @@ namespace WebFormDemo
         {
 
         }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBuildingClassificationDetails.aspx");
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBuildingClassificationAdditionalCoverages.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+       
     }
 }

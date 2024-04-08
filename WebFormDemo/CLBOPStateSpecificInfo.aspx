@@ -8,8 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
         <div>
-            <h3>Coverages</h3>
+            <h1>Coverages</h1>
             <label for="currentState">Current State:</label>
             <select id="currentState" name="currentState">
                 <option value="Pennsylvania">Pennsylvania</option>

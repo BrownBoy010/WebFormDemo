@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebFormDemo
 {
-    public partial class CLBOPBuildingClassificationAdditionalCoverages : System.Web.UI.Page
+    public partial class LOBReview : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,17 +16,17 @@ namespace WebFormDemo
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPBuildingClassificationCoverages.aspx");
+
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPBlankets.aspx");
+           
         }
-       
-        protected void btnAll_Click(object sender, EventArgs e)
-        {
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/QuoteWizard.aspx");
         }
     }
 }

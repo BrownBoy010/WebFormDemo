@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebFormDemo
 {
-    public partial class CLBOPBlankets : System.Web.UI.Page
+    public partial class CLBOPUWQuestions : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,12 +16,12 @@ namespace WebFormDemo
 
         protected void Button11_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPBuildingDetails.aspx");
+            Response.Redirect("~/CLBOPMortgagee.aspx");
         }
 
         protected void Button12_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/CLBOPMortgagee.aspx");
+            Response.Redirect("~/LOBReview.aspx");
         }
     }
 }

@@ -79,7 +79,7 @@
                 <asp:Button ID="Button1" runat="server" Text="Add New Quote" OnClick="Button1_Click" />
             </h3>
             <p>
-                <asp:Button ID="Button2" runat="server" Text="Active" OnClick="Button2_Click" />
+                 <asp:Button ID="Button2" runat="server" Text="Active" OnClick="Button2_Click" />
                 <asp:Button ID="Button3" runat="server" Text="All" OnClick="Button2_Click" />
                 <asp:Button ID="Button4" runat="server" Text="Commercial Auto" OnClick="Button2_Click" />
                 <asp:Button ID="Button5" runat="server" Text="Businessowners" OnClick="Button2_Click" />
@@ -109,7 +109,7 @@
                 <td class="auto-style15">$500</td>
                 <td class="auto-style14">Pending</td>
                 <td>
-                    <a href="CLBOPPolicyDetails">Open</a> |                        
+                    <a href="AjaxTab">Open</a> |                        
                         <a href="#">Delete</a>
                 </td>
             </tr>
@@ -123,7 +123,7 @@
                 <td class="auto-style15">$700</td>
                 <td class="auto-style14">Active</td>
                 <td>
-                    <a href="CLBOPPolicyDetails">Open</a> |                        
+                    <a href="AjaxTab">Open</a> |                        
                     <a href="#">Delete</a>
                 </td>
             </tr>
@@ -154,7 +154,7 @@
                 <td class="auto-style17">Inforce Team 1</td>
                 <td class="auto-style18">$1000</td>
                 <td>
-                    <a href="CLBOPPolicyDetails">Open</a> |
+                    <a href="AjaxTab">Open</a> |
                         <a href="#">Copy</a> |
                         <a href="#">Settings</a> |
                         <a href="#">Delete</a>
@@ -168,7 +168,7 @@
                 <td class="auto-style17">Inforce Team 2</td>
                 <td class="auto-style18">$1200</td>
                 <td>
-                    <a href="CLBOPPolicyDetails">Open</a> |
+                    <a href="AjaxTab">Open</a> |
                         <a href="#">Delete</a>
                 </td>
             </tr>

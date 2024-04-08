@@ -11,7 +11,7 @@ namespace WebFormDemo
 {
 
 
-    public partial class CLBOPBuildingClassificationDetails
+    public partial class AjaxTab
     {
 
         /// <summary>
@@ -24,75 +24,102 @@ namespace WebFormDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
+        /// ScriptManager1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
-        /// txtClassificationDescription control.
+        /// TabContainer1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtClassificationDescription;
+        protected global::AjaxControlToolkit.TabContainer TabContainer1;
 
         /// <summary>
-        /// txtClassificationCode control.
+        /// TabPanel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtClassificationCode;
+        protected global::AjaxControlToolkit.TabPanel TabPanel1;
 
         /// <summary>
-        /// txtOccupancySquareFootage control.
+        /// TabPanel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtOccupancySquareFootage;
+        protected global::AjaxControlToolkit.TabPanel TabPanel2;
 
         /// <summary>
-        /// ddlClassGroup control.
+        /// TabPanel3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlClassGroup;
+        protected global::AjaxControlToolkit.TabPanel TabPanel3;
 
         /// <summary>
-        /// ddlLiabilityExposureBase control.
+        /// TabPanel4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect ddlLiabilityExposureBase;
+        protected global::AjaxControlToolkit.TabPanel TabPanel4;
 
         /// <summary>
-        /// Button1 control.
+        /// TabPanel5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::AjaxControlToolkit.TabPanel TabPanel5;
 
         /// <summary>
-        /// Button2 control.
+        /// TabPanel6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::AjaxControlToolkit.TabPanel TabPanel6;
+
+        /// <summary>
+        /// TabPanel7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.TabPanel TabPanel7;
+
+        /// <summary>
+        /// TabPanel8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.TabPanel TabPanel8;
+
+        /// <summary>
+        /// TabPanel9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.TabPanel TabPanel9;
     }
 }

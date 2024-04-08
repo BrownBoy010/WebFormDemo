@@ -11,7 +11,7 @@ namespace WebFormDemo
 {
 
 
-    public partial class CLBOPBuildingClassificationAdditionalCoverages
+    public partial class CLBOPUWQuestions
     {
 
         /// <summary>
@@ -24,48 +24,75 @@ namespace WebFormDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnAll control.
+        /// radMortgageesYes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAll;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radMortgageesYes;
 
         /// <summary>
-        /// btnAdditionalCoverage control.
+        /// radMortgageesNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdditionalCoverage;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radMortgageesNo;
 
         /// <summary>
-        /// btnExclusions control.
+        /// radLowPressureYes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnExclusions;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radLowPressureYes;
 
         /// <summary>
-        /// Button1 control.
+        /// radLowPressureNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radLowPressureNo;
 
         /// <summary>
-        /// Button2 control.
+        /// radAnswersYes control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radAnswersYes;
+
+        /// <summary>
+        /// radAnswersNo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton radAnswersNo;
+
+        /// <summary>
+        /// Button11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button11;
+
+        /// <summary>
+        /// Button12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button12;
     }
 }

@@ -37,7 +37,9 @@
     </style>
 </head>
 <body>
+            
     <form id="form1" runat="server">
+                    
         <h1>Location</h1>
         <div>
             <asp:Button ID="btnAddNewLocation" runat="server" Text="Add New Location" OnClick="btnAddNewLocation_Click" />
