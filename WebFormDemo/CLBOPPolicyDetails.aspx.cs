@@ -57,22 +57,5 @@ namespace WebFormDemo
             ModalPopupExtender1.Show();
         }
 
-        
-
-        protected void btnCancel_Click(object sender, EventArgs e)
-        {            
-            Response.Redirect("~/CLBOPPolicyDetails.aspx");
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPBusinessOwnersDetails.aspx");
-        }
-
-        protected void btnAddNew_Click1(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

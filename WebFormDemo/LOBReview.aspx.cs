@@ -13,15 +13,29 @@ namespace WebFormDemo
         {
 
         }
+        protected void ButtonPolicyDetails_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPPolicyDetails.aspx");
+        }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            Response.Redirect("~/CLBOPBusinessOwnersDetails.aspx");
+        }
 
+        protected void ButtonLocation_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPLocationsDetails.aspx");
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-           
+            Response.Redirect("~/CLBOPStateSpecificInfo.aspx");
+        }
+
+        protected void Button10_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/CLBOPBuildingDetails.aspx");
         }
 
         protected void Button3_Click(object sender, EventArgs e)
