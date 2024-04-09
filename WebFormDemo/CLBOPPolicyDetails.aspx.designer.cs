@@ -24,22 +24,13 @@ namespace WebFormDemo
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Label1 control.
+        /// ScriptManager1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// lblPolicyEffectiveDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPolicyEffectiveDate;
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
         /// txtPolicyEffectiveDate control.
@@ -51,15 +42,6 @@ namespace WebFormDemo
         protected global::System.Web.UI.WebControls.TextBox txtPolicyEffectiveDate;
 
         /// <summary>
-        /// lblPolicyExpirationDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPolicyExpirationDate;
-
-        /// <summary>
         /// txtPolicyExpirationDate control.
         /// </summary>
         /// <remarks>
@@ -69,15 +51,6 @@ namespace WebFormDemo
         protected global::System.Web.UI.WebControls.TextBox txtPolicyExpirationDate;
 
         /// <summary>
-        /// lblPolicyCode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPolicyCode;
-
-        /// <summary>
         /// txtPolicyCode control.
         /// </summary>
         /// <remarks>
@@ -85,15 +58,6 @@ namespace WebFormDemo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPolicyCode;
-
-        /// <summary>
-        /// lblPolicyProcedure control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPolicyProcedure;
 
         /// <summary>
         /// txtPolicyProcedure control.
@@ -112,15 +76,6 @@ namespace WebFormDemo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnShowPopup;
-
-        /// <summary>
-        /// ScriptManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
         /// ModalPopupExtender1 control.

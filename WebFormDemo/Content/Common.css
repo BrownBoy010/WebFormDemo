@@ -1,0 +1,175 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff; 
+    color: white;
+}
+
+.client-info {
+    margin-bottom: 20px;
+}
+
+    .client-info span {
+        margin-right: 20px;
+    }
+
+.btn {
+    background-color: #007bff; 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+
+.btn:hover {
+    background-color: #0056b3; 
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-container input[type="button"] {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-container input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+.login-button {
+    background-color: #007bff; /* Button color */
+    color: #ffffff; /* Button text color */
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background-color: #0056b3; /* Hover color */
+}
+
+#TabContainer1 {
+    width: 80%;
+    margin: 0 auto; /* Center the tab container */
+}
+
+.ajax__tab_header {
+    background-color: #007bff; /* Tab header background color */
+    color: white;
+}
+
+.ajax__tab_tab {
+    padding: 10px 20px;
+}
+
+.ajax__tab_body {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.ajax__tab_active {
+    background-color: #ffffff;
+    border-bottom: 2px solid #007bff;
+}
+
+.ajax__tab_active .ajax__tab_tab {
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Form container styles */
+.form-container {
+    margin-bottom: 30px;
+}
+
+/* Header styles */
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Navigation links styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Form label styles */
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+/* Input and dropdown styles */
+.input-control,
+select {
+    width: calc(100% - 220px); /* Adjust based on label width */
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Checkbox styles */
+.checkbox-control {
+    margin-bottom: 10px;
+}
+
+/* Button styles */
+.button-control {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}

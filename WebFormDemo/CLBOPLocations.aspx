@@ -6,54 +6,56 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            width: 798px;
-            height: 38px;
+        .header-style {
+            text-align: left;
+            padding: 8px;
+            background-color: #f2f2f2;
         }
-        .auto-style2 {
-            width: 811px;
-            height: 38px;
+        /* Table styles */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
         }
-        .auto-style6 {
-            height: 38px;
-            width: 424px;
+        th, td {
+            text-align: left;
+            padding: 8px;
         }
-        .auto-style7 {
-            height: 38px;
-            width: 549px;
+        th {
+            background-color: #f2f2f2;
         }
-        .auto-style8 {
-            width: 908px;
-            height: 38px;
+       .btn {
+            background-color: #007bff; 
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top:5px;
+            margin-bottom:5px;
+
         }
-        .auto-style9 {
-            height: 38px;
-            width: 785px;
-        }
-        .auto-style10 {
-            height: 38px;
-            width: 685px;
+
+        .btn:hover {
+            background-color: #0056b3; 
         }
     </style>
 </head>
 <body>
-            
     <form id="form1" runat="server">
-                    
         <h1>Location</h1>
         <div>
-            <asp:Button ID="btnAddNewLocation" runat="server" Text="Add New Location" OnClick="btnAddNewLocation_Click" />
-            <br />
+            <asp:Button ID="btnAddNewLocation" runat="server" Text="Add New Location" OnClick="btnAddNewLocation_Click" CssClass="btn" />
         </div>
         <table border="1">
             <tr>
-                <th class="auto-style8">Location Number</th>
-                <th class="auto-style7">Address</th>
-                <th class="auto-style6">City</th>
-                <th class="auto-style10">State</th>
-                <th class="auto-style9">Zip Code</th>
-                <th class="auto-style2">Primary</th>
-                <th class="auto-style1">Action</th>
+                <th class="header-style">Location Number</th>
+                <th class="header-style">Address</th>
+                <th class="header-style">City</th>
+                <th class="header-style">State</th>
+                <th class="header-style">Zip Code</th>
+                <th class="header-style">Primary</th>
+                <th class="header-style">Action</th>
             </tr>
             <tr>
                 <td>1</td>
@@ -65,9 +67,8 @@
                 <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" Text="Previes" OnClick="Button1_Click" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
+        <asp:Button ID="Button1" runat="server" Text="Previes" OnClick="Button1_Click" CssClass="btn" />
+        <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn" />
     </form>
 </body>
 </html>

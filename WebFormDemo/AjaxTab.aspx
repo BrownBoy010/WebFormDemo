@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="Content/Common.css" rel="stylesheet" />
     <script src="Scripts/TrackingBeacon.js"></script>
     <script type="text/javascript">
         window.onload = onPageLoad;
