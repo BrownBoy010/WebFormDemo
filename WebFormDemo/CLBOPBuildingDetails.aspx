@@ -66,7 +66,7 @@
                 <asp:ListItem Text="Sloped" Value="Sloped"></asp:ListItem>
             </asp:DropDownList>
         </div>
-        <asp:Button ID="Button1" runat="server" Text="previous" OnClick="Button1_Click" style="margin-right:20px;" CssClass="btn"/>
+        <asp:Button ID="Button1" runat="server" Text="Previous" OnClick="Button1_Click" style="margin-right:20px;" CssClass="btn"/>
         <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click"  CssClass="btn"/>
     </form>
 </body>

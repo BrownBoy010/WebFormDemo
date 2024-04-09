@@ -19,10 +19,10 @@ namespace WebFormDemo
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPLocations.aspx");
-        }
+        //protected void Button1_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPLocations.aspx");
+        //}
 
         protected void Button2_Click(object sender, EventArgs e)
         {

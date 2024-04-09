@@ -49,14 +49,14 @@ namespace WebFormDemo
             
         }
 
-        protected void Previous_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPBlankets.aspx");
-        }
+        //protected void Previous_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPBlankets.aspx");
+        //}
 
-        protected void Continue_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPUWQuestions.aspx");
-        }
+        //protected void Continue_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPUWQuestions.aspx");
+        //}
     }
 }

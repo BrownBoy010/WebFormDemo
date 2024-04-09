@@ -139,8 +139,8 @@
             <div class="button-container">
                 <br />
                 <br />
-                <asp:Button runat="server" Text="Previous" OnClick="Previous_Click" CssClass="btn"></asp:Button>
-                <asp:Button runat="server" Text="Continue" OnClick="Continue_Click" CssClass="btn"></asp:Button>
+                <%--<asp:Button runat="server" Text="Previous" OnClick="Previous_Click" CssClass="btn"></asp:Button>
+                <asp:Button runat="server" Text="Continue" OnClick="Continue_Click" CssClass="btn"></asp:Button>--%>
             </div>
         </div>
     </form>

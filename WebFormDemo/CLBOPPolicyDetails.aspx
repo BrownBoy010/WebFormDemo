@@ -146,7 +146,7 @@
                     <asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" CssClass="btn" />
                 </div>
             </asp:Panel>
-            <asp:Button ID="Button1" runat="server" Text="Next" OnClick="Button1_Click" CssClass="btn" />
+            
         </div>
     </form>
 </body>

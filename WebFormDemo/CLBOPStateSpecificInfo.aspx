@@ -24,9 +24,9 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Previes" OnClick="Button1_Click" />
+            <%--<asp:Button ID="Button1" runat="server" Text="Previous" OnClick="Button1_Click" />--%>
 
-            <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />
+            <%--<asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" />--%>
         </div>
     </form>
 

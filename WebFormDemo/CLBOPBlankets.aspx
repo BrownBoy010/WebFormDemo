@@ -27,8 +27,8 @@
         </div>
         <br />
         <br />
-        <asp:Button ID="Button11" runat="server" Text="Previous" OnClick="Button11_Click" CssClass="btn"/>
-        <asp:Button ID="Button12" runat="server" Text="Next" OnClick="Button12_Click" CssClass="btn"/>
+        <%--<asp:Button ID="Button11" runat="server" Text="Previous" OnClick="Button11_Click" CssClass="btn"/>
+        <asp:Button ID="Button12" runat="server" Text="Next" OnClick="Button12_Click" CssClass="btn"/>--%>
     </form>
 </body>
 </html>

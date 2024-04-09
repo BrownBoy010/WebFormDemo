@@ -136,7 +136,7 @@
         <br />
         <asp:Button ID="Button1" runat="server" Text="Previous" OnClick="Button1_Click" CssClass="btn"/>
         
-        <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn"/>
+        <%--<asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn"/>--%>
         <br />
     </form>
 </body>

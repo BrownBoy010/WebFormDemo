@@ -67,8 +67,8 @@
                 <td><a href="#">Edit</a> | <a href="#">Delete</a></td>
             </tr>
         </table>
-        <asp:Button ID="Button1" runat="server" Text="Previes" OnClick="Button1_Click" CssClass="btn" />
-        <asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn" />
+        <%--<asp:Button ID="Button1" runat="server" Text="Previes" OnClick="Button1_Click" CssClass="btn" />--%>
+        <%--<asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn" />--%>
     </form>
 </body>
 </html>

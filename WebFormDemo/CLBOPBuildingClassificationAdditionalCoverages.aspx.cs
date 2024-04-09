@@ -19,10 +19,10 @@ namespace WebFormDemo
             Response.Redirect("~/CLBOPBuildingClassificationCoverages.aspx");
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPBlankets.aspx");
-        }
+        //protected void Button2_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPBlankets.aspx");
+        //}
        
         protected void btnAll_Click(object sender, EventArgs e)
         {

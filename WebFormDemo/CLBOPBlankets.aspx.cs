@@ -14,14 +14,14 @@ namespace WebFormDemo
 
         }
 
-        protected void Button11_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPBuildingDetails.aspx");
-        }
+        //protected void Button11_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPBuildingDetails.aspx");
+        //}
 
-        protected void Button12_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/CLBOPMortgagee.aspx");
-        }
+        //protected void Button12_Click(object sender, EventArgs e)
+        //{
+        //    Response.Redirect("~/CLBOPMortgagee.aspx");
+        //}
     }
 }
