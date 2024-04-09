@@ -17,7 +17,7 @@
 
         <div>
             <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" ActiveTabIndex="0"
-                OnClientActiveTabChanged="onTabChanged">
+                OnClientActiveTabChanged="onTabChanged" ClientIDMode="Static">
                 <ajaxToolkit:TabPanel ID="TabPanel1" runat="server">
                     <HeaderTemplate>
                         <div style="width: 150px;">Policy Details</div>
@@ -69,7 +69,15 @@
             </ajaxToolkit:TabContainer>
         </div>
         <asp:HiddenField ID="hdnUserName" runat="server" />
-
+        <div style="text-align:center">
+            <asp:Button ID="policyPrevious" runat="server" Text="Previous" CssClass="btn"
+                OnClientClick="goToPreviousTab(); return false;" />
+            <asp:Button ID="policyNext" runat="server" Text="Next" CssClass="btn"
+                OnClientClick="goToNextTab(); return false;" />
+        </div>
     </form>
 </body>
+
+<script src="Scripts/Common.js"></script>
+
 </html>
