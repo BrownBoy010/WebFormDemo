@@ -53,7 +53,7 @@
     <form id="form1" runat="server">
             <h1>Location</h1>
         <div>
-            <a href="CLBOPLocationsDetails.aspx">Location Details</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPLocationCoverages.aspx">Location Coverages</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPLocationAdditionalCoverages.aspx">Location Additional Coverages</a>
+            <a href="CLBOPLocationsDetails.aspx">Location Details</a>| <a href="CLBOPLocationCoverages.aspx">Location Coverages</a>| <a href="CLBOPLocationAdditionalCoverages.aspx">Location Additional Coverages</a>
         </div>
         <h3>Physical Location Address</h3>
         <div>

@@ -28,7 +28,7 @@
     <form id="form1" runat="server">
         <h1>Business Owners</h1>
         <div>
-            <a href="CLBOPBusinessOwnersDetails.aspx">Details</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPBusinessOwnersCoverages.aspx">Coverages</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CLBOPBusinessOwnersAddlCoverages.aspx">Additional Coverages</a>
+            <a href="CLBOPBusinessOwnersDetails.aspx">Details</a>| <a href="CLBOPBusinessOwnersCoverages.aspx">Coverages</a>| <a href="CLBOPBusinessOwnersAddlCoverages.aspx">Additional Coverages</a>
             <br />
             <br />
         </div>
@@ -155,7 +155,7 @@
         </table>
         <br />
         <asp:Button ID="Button2" runat="server" Text="Previous" OnClick="Button2_Click" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Next" />
     </form>
 </body>

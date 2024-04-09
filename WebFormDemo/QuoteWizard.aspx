@@ -31,30 +31,30 @@
     <form id="form1" runat="server">
         <div>
             <h2>Agency Information</h2>
-            <p>&nbsp;</p>
+            <p></p>
 
             <h3>Agency & Licensing Information</h3>
         </div>
         <asp:Label ID="Label1" runat="server" Text="Agency"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+         
         <asp:TextBox ID="TextBox1" runat="server" Width="318px"></asp:TextBox>
         <br />
         <asp:Label ID="Label2" runat="server" Text="Procedure"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
         <br />
         <asp:Label ID="Label3" runat="server" Text="Sub Prod. Code"></asp:Label>
-        &nbsp;&nbsp;&nbsp;
+        
         <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
         <br />
         <asp:Label ID="Label4" runat="server" Text="CSR Name"></asp:Label>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:TextBox ID="TextBox4" runat="server" Enabled="false"></asp:TextBox>
         <br />
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:Button ID="Button1" runat="server" Text="Cancel" OnClick="Button1_Click" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         <asp:Button ID="Button2" runat="server" Text="Next" OnClientClick="return toggleAdditionalForm();" />
 
         <div id="additionalForm" runat="server" style="display: none;">
@@ -80,9 +80,9 @@
             <input type="radio" id="commercialAuto" name="productLine" value="Commercial Auto">
             <label for="commercialAuto">Commercial Auto</label><br>
             <br />
-            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </label>
             <asp:Button ID="Button3" runat="server" Text="Cancel" />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <asp:Button ID="Button4" runat="server" Text="Next" OnClientClick="return toggleAdditionalForm1();" />
             <br>
         </div>
