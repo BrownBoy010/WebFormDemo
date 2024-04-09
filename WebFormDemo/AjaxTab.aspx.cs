@@ -11,7 +11,7 @@ namespace WebFormDemo
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            hdnUserName.Value = Convert.ToString(Session["UserName"]);
         }
     }
 }

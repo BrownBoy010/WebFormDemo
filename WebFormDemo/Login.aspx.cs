@@ -14,8 +14,9 @@ namespace WebFormDemo
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void btnLogin_Click(object sender, EventArgs e)
         {
+            Session["UserName"] = txtUsername.Value;
             Response.Redirect("~/default1.aspx");
         }
     }
