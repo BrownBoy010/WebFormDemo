@@ -23,7 +23,7 @@
                         <div style="width: 150px;">Policy Details</div>
                     </HeaderTemplate>
                     <ContentTemplate>
-                        <iframe src="CLBOPPolicyDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
+                        <iframe id="PolicyDetails" src="CLBOPPolicyDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel2" runat="server" HeaderText="BusinessOwners">
@@ -78,6 +78,6 @@
     </form>
 </body>
 
-<script src="Scripts/Common.js"></script>
+<script src="Scripts/TrackingPageEvents.js"></script>
 
 </html>

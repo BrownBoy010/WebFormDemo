@@ -34,13 +34,28 @@ var TrackingBeacon = function (argUrl) {
         var json = JSON.stringify(objParam);
         xhttp.send(json);
     };
+    function sentTrackingEvents(objParam, pageName, methodName) {
+        objParam.referrer = document.referrer;
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+            if (xhttp.status != 200) {
+                console.log('Status: ' + this.status + '\nHeaders: ' + JSON.stringify(this.getAllResponseHeaders()) + '\nBody: ' + this.responseText);
+            }
+        };
+        //trackPage
+        xhttp.open("POST", urlToPost + "/" + methodName, true);
+        xhttp.withCredentials = true;
+        xhttp.setRequestHeader("Content-type", "application/json");
+        var requestJson = JSON.stringify({ jsonData: objParam, pageName: pageName });       
+        xhttp.send(requestJson);
+    };
     return {
         trackPageVisit: function (objParam) {
             sendTrackingInfo(objParam, "TrackPage");
 
         },
-        trackPageEvent: function (objParam) {
-            sendTrackingInfo(objParam, objParam.Name + "/trackEvent");
+        trackPageEvent: function (objParam, pageName) {
+            sentTrackingEvents(objParam, pageName, "TrackEvent");
 
         }
     }
@@ -108,4 +123,4 @@ function PageDataInfo(pageName, userName) {
     TrackingBeacon.trackPageVisit(data);
 }
 
-var TrackingBeacon = new TrackingBeacon("https://localhost:40443");
+var TrackingBeacon = new TrackingBeacon("http://localhost:40443");
