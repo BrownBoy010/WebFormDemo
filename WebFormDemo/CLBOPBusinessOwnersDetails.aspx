@@ -96,7 +96,7 @@
             </asp:DropDownList>
             <br />
             <label for="lblTerrorismCoverageApplies">Terrorism Coverage Applies?:</label>
-            <asp:CheckBox ID="Yes" runat="server" Text="Yes" />
+            <asp:CheckBox ID="chkTerrorismCoverageApplies" runat="server" Text="Yes" />
         </div>
         <br />
         <br />

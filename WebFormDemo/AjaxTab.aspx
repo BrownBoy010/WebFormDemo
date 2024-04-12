@@ -7,6 +7,7 @@
     <title></title>
     <link href="Content/Common.css" rel="stylesheet" />
     <script src="Scripts/TrackingBeacon.js"></script>
+    <script src="Scripts/TrackingPageEvents.js"></script>
     <script type="text/javascript">
         window.onload = onPageLoad;
     </script>
@@ -23,47 +24,47 @@
                         <div style="width: 150px;">Policy Details</div>
                     </HeaderTemplate>
                     <ContentTemplate>
-                        <iframe id="PolicyDetails" src="CLBOPPolicyDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
+                        <iframe id="iPolicyDetails" src="CLBOPPolicyDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel2" runat="server" HeaderText="BusinessOwners">
                     <ContentTemplate>
-                        <iframe id="BusinessOwners" src="CLBOPBusinessOwnersDetails.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iBusinessOwners" src="CLBOPBusinessOwnersDetails.aspx" frameborder="0" width="600%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel3" runat="server" HeaderText="Locations">
                     <ContentTemplate>
-                        <iframe src="CLBOPLocations.aspx" frameborder="0" width="100%" height="600"></iframe>
+                        <iframe id="iLocations" src="CLBOPLocations.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel4" runat="server" HeaderText="StateSpecificInfo">
                     <ContentTemplate>
-                        <iframe src="CLBOPStateSpecificInfo.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iStateSpecificInfo" src="CLBOPStateSpecificInfo.aspx" frameborder="0" width="600%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel5" runat="server" HeaderText="BuildingDetails">
                     <ContentTemplate>
-                        <iframe src="CLBOPBuildingDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
+                        <iframe id="iBuildingDetails" src="CLBOPBuildingDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel6" runat="server" HeaderText="Blankets">
                     <ContentTemplate>
-                        <iframe src="CLBOPBlankets.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iBlankets" src="CLBOPBlankets.aspx" frameborder="0" width="600%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel7" runat="server" HeaderText="Mortgagee">
                     <ContentTemplate>
-                        <iframe src="CLBOPMortgagee.aspx" frameborder="0" width="100%" height="600"></iframe>
+                        <iframe id="iMortgage" src="CLBOPMortgagee.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel8" runat="server" HeaderText="UWQuestions">
                     <ContentTemplate>
-                        <iframe src="CLBOPUWQuestions.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iUWQuestions" src="CLBOPUWQuestions.aspx" frameborder="0" width="600%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel9" runat="server" HeaderText="Review">
                     <ContentTemplate>
-                        <iframe src="LOBReview.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iReview" src="LOBReview.aspx" frameborder="0" width="600%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
             </ajaxToolkit:TabContainer>
