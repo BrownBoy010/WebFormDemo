@@ -5,23 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style type="text/css">
-        .auto-style1 {
-            width: 747px;
-        }
-
-        .auto-style2 {
-            width: 1837px;
-        }
-
-        .auto-style3 {
-            width: 303px;
-        }
-
-        .auto-style4 {
-            width: 373px;
-        }
-    </style>
+     <link href="Content/TabPage.css" rel="stylesheet" />
+     <link href="Content/Common.css" rel="stylesheet" />   
 
 </head>
 <body>
@@ -32,19 +17,19 @@
             <br />
             <br />
         </div>
-        <asp:Button ID="btnAll" runat="server" Text="All" OnClick="btnAll_Click" />
-        <asp:Button ID="btnAdditionalCoverage" runat="server" Text="Additional Coverage" OnClick="btnAll_Click" />
-        <asp:Button ID="btnConditions" runat="server" Text="Conditions" OnClick="btnAll_Click" />
-        <asp:Button ID="btnExclusions" runat="server" Text="Exclusions" OnClick="btnAll_Click" />
-        <asp:Button ID="btnAdditionalInsuredCoverages" runat="server" Text="Additional Insured Coverages" OnClick="btnAll_Click" /><br />
+        <asp:Button ID="btnAll" runat="server" Text="All" OnClick="btnAll_Click" CssClass="btn" />
+        <asp:Button ID="btnAdditionalCoverage" runat="server" Text="Additional Coverage" OnClick="btnAll_Click" CssClass="btn"/>
+        <asp:Button ID="btnConditions" runat="server" Text="Conditions" OnClick="btnAll_Click" CssClass="btn"/>
+        <asp:Button ID="btnExclusions" runat="server" Text="Exclusions" OnClick="btnAll_Click" CssClass="btn"/>
+        <asp:Button ID="btnAdditionalInsuredCoverages" runat="server" Text="Additional Insured Coverages" OnClick="btnAll_Click" CssClass="btn" /><br />
         <br />
 
         <table border="1">
             <tr>
-                <th class="auto-style3">Type</th>
-                <th class="auto-style4">Selected</th>
-                <th class="auto-style2">Coverage Name</th>
-                <th class="auto-style1">Action</th>
+                <th>Type</th>
+                <th>Selected</th>
+                <th>Coverage Name</th>
+                <th>Action</th>
             </tr>
             <tr>
                 <td>Exclusions</td>
@@ -154,9 +139,9 @@
 
         </table>
         <br />
-        <asp:Button ID="Button2" runat="server" Text="Previous" OnClick="Button2_Click" />
+        <asp:Button ID="Button2" runat="server" Text="Previous" OnClick="Button2_Click" CssClass="btn"/>
         
-        <%--<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Next" />--%>
+        <%--<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Next" CssClass="btn"/>--%>
     </form>
 </body>
 </html>

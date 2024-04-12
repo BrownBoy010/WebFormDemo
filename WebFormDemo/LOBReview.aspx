@@ -11,7 +11,7 @@
     <link href="Content/Common.css" rel="stylesheet" />
 </head>
 <body>
-    <script>
+    <script>    
         $(function () {
             $("#slider").slider({
                 range: "min",

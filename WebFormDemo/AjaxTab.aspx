@@ -29,7 +29,7 @@
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel2" runat="server" HeaderText="BusinessOwners">
                     <ContentTemplate>
-                        <iframe id="iBusinessOwners" src="CLBOPBusinessOwnersDetails.aspx" frameborder="0" width="600%" height="600"></iframe>
+                        <iframe id="iBusinessOwners" src="CLBOPBusinessOwnersDetails.aspx" frameborder="0" width="100%" height="600"></iframe>
                     </ContentTemplate>
                 </ajaxToolkit:TabPanel>
                 <ajaxToolkit:TabPanel ID="TabPanel3" runat="server" HeaderText="Locations">
