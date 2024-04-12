@@ -25,12 +25,14 @@ function goToPreviousTab() {
 async function FetchPageData(tabContainer, activeTabIndex, sourceEvent) {
     let iframe;
     let iframeDocument;
-    let jsonData = {
-        "sessionID": document.getElementById('hdnUserSessionID').value,
-        "eventType": sourceEvent
-    };
     let tab = tabContainer.control.get_tabs()[activeTabIndex];
     let headerText = tab.get_headerTab().innerText;
+    let jsonData = {
+        "sessionID": document.getElementById('hdnUserSessionID').value,
+        "eventType": sourceEvent,
+        "pageName": headerText
+    };
+    
     switch (headerText) {
         case "Policy Details":
             iframe = document.getElementById("iPolicyDetails");
@@ -57,6 +59,16 @@ async function FetchPageData(tabContainer, activeTabIndex, sourceEvent) {
                     "chkTerrorismCoverageApplies": iframeDocument.getElementById("chkTerrorismCoverageApplies").value
                 });
                 await TrackingBeacon.trackPageEvent(jsonData, "BusinessOwners");
+            }
+            break;
+        case "StateSpecificInfo":
+            iframe = document.getElementById("iStateSpecificInfo");
+            if (iframe) {
+                iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+                jsonData = Object.assign(jsonData, {
+                    "currentState": iframeDocument.getElementById("currentState").value
+                });
+                await TrackingBeacon.trackPageEvent(jsonData, "StateSpecificInfo");
             }
             break;
     }

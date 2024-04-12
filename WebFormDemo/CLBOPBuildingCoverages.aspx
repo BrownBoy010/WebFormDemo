@@ -5,6 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="Content/TabPage.css" rel="stylesheet" />
+    <link href="Content/Common.css" rel="stylesheet" />
     <style type="text/css">
         .auto-style1 {
             margin-left: 120px;
@@ -21,13 +23,13 @@
 
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Building +" Width="416px" OnClick="Button1_Click" />
+        <asp:Button ID="Button1" runat="server" Text="Building +" Width="416px" OnClick="Button1_Click" CssClass="btn" />
         <br />
         <br />
-        <asp:Button ID="Button2" runat="server" Text="Damage To Premises Rented to You +" Width="414px" OnClick="Button2_Click" />
+        <asp:Button ID="Button2" runat="server" Text="Damage To Premises Rented to You +" Width="414px" OnClick="Button2_Click" CssClass="btn" />
         <br />
         <br />
-        <asp:Button ID="Button3" runat="server" Text="Protective Safeguards +" Width="416px" OnClick="Button3_Click" />
+        <asp:Button ID="Button3" runat="server" Text="Protective Safeguards +" Width="416px" OnClick="Button3_Click" CssClass="btn"/>
 
         <div id="divEditBuilding" runat="server" style="display: none;">
             <h3 class="auto-style1">Edit Building</h3>
@@ -48,17 +50,17 @@
             <label for="txtNumberOfStories">Number of Stories:</label>
             <input type="text" id="txtNumberOfStories" runat="server" />
             <br />
-            <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" />
-            <asp:Button ID="btnRemoveCoverage" runat="server" Text="Remove Coverage" OnClick="btnRemoveCoverage_Click" />
+            <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" CssClass="btn"/>
+            <asp:Button ID="btnRemoveCoverage" runat="server" Text="Remove Coverage" OnClick="btnRemoveCoverage_Click" CssClass="btn"/>
 
         </div>
 
         <br />
         <br />
         <br />
-        <asp:Button ID="Button4" runat="server" Text="Previous" OnClick="Button4_Click" />
+        <asp:Button ID="Button4" runat="server" Text="Previous" OnClick="Button4_Click" CssClass="btn"/>
 
-        <asp:Button ID="Button5" runat="server" Text="Next" OnClick="Button5_Click" />
+        <asp:Button ID="Button5" runat="server" Text="Next" OnClick="Button5_Click" CssClass="btn"/>
 
     </form>
 </body>

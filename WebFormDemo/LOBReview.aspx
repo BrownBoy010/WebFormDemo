@@ -7,7 +7,8 @@
     <title></title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>    
+    <link href="Content/Common.css" rel="stylesheet" />
 </head>
 <body>
     <script>
@@ -81,13 +82,13 @@
                 <h3>Next Steps</h3>
                 
                 <br />
-                <asp:Button ID="Button1" runat="server" Text="Edit Quote" OnClick="Button1_Click" />
+                <asp:Button ID="Button1" runat="server" Text="Edit Quote" OnClick="Button1_Click" CssClass="btn"/>
                 <br />
                 <br />
-                <asp:Button ID="Button2" runat="server" Text="Submit For Approval" OnClick="Button2_Click" />
+                <asp:Button ID="Button2" runat="server" Text="Submit For Approval" OnClick="Button2_Click" CssClass="btn"/>
                 <br />
                 <br />
-                <asp:Button ID="Button3" runat="server" Text="Add a New Quote" OnClick="Button3_Click" />
+                <asp:Button ID="Button3" runat="server" Text="Add a New Quote" OnClick="Button3_Click" CssClass="btn"/>
                 
             </div>
 
