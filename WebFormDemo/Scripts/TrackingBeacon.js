@@ -46,8 +46,13 @@ var TrackingBeacon = function (argUrl) {
         xhttp.open("POST", urlToPost + "/" + methodName, true);
         xhttp.withCredentials = true;
         xhttp.setRequestHeader("Content-type", "application/json");
-        var requestJson = JSON.stringify({ jsonData: objParam, pageName: pageName });       
-        xhttp.send(requestJson);
+        
+        var data = {
+            "pagename": pageName,
+            "jsondata": JSON.stringify(objParam)
+        };
+        var json = JSON.stringify(data);
+        xhttp.send(json);
     };
     return {
         trackPageVisit: function (objParam) {
@@ -63,22 +68,26 @@ var TrackingBeacon = function (argUrl) {
 
 function onTabChanged(sender, args) {
     var userName = document.getElementById('hdnUserName').value;
+
+    var userSessionID = document.getElementById('hdnUserSessionID').value;
     // Get the active tab
     var activeTab = sender.get_activeTab();
 
     // Extract information about the active tab
     var pageName = activeTab.get_headerTab().innerText;
-    PageDataInfo(pageName, userName);
+    PageDataInfo(pageName, userName, userSessionID);
 }
 
 function onPageLoad() {
     var userName = document.getElementById('hdnUserName').value;
+
+    var userSessionID = document.getElementById('hdnUserSessionID').value;
     var pageName = "Policy Details";
-    PageDataInfo(pageName, userName);
+    PageDataInfo(pageName, userName, userSessionID);
 }
 
 
-function PageDataInfo(pageName, userName) {
+function PageDataInfo(pageName, userName, userSessionID) {
     var browserInfo = navigator.userAgent;
 
     // OS Type
@@ -98,6 +107,7 @@ function PageDataInfo(pageName, userName) {
     var isBot = /bot|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent);
 
     var data = {
+        "sessionID": userSessionID,
         "page": pageName,
         "userid": userName,
         "customerid": "12345",
@@ -123,4 +133,4 @@ function PageDataInfo(pageName, userName) {
     TrackingBeacon.trackPageVisit(data);
 }
 
-var TrackingBeacon = new TrackingBeacon("http://localhost:40443");
+var TrackingBeacon = new TrackingBeacon("https://localhost:40443");

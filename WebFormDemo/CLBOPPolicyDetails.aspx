@@ -22,7 +22,7 @@
                 <div style="display: flex; flex-wrap: wrap;">
                     <div style="flex: 1; margin-right: 10px;">
                         <label for="txtPolicyEffectiveDate">Policy Effective Date:</label>
-                        <asp:TextBox ID="txtPolicyEffectiveDate" runat="server" TextMode="Date" CssClass="input-control"></asp:TextBox>
+                        <asp:TextBox ID="txtPolicyEffectiveDate" runat="server" TextMode="Date" CssClass="input-control" on></asp:TextBox>
                     </div>
                     <div style="flex: 1;">
                         <label for="txtPolicyExpirationDate">Policy Expiration Date:</label>

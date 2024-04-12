@@ -1,13 +1,22 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Configuration;
 using System.Data.SqlClient;
 
 namespace WebFormDemo
 {
+    public class PolicyDetailsClass
+    {
+       public string policyEffectiveDate;
+       public string policyExpirationDate;
+       public string policyCode;
+    }
+
     public partial class Policy : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //hdnEffectiveDate = Convert.ToString();
 
         }
 
@@ -49,7 +58,9 @@ namespace WebFormDemo
         }
         protected void btnSave_Click(object sender, EventArgs e)
         {
+            //PolicyDetailsClass policyDetailsClass = new PolicyDetailsClass();
             
+
             
         }
         protected void btnShowPopup_Click(object sender, EventArgs e)

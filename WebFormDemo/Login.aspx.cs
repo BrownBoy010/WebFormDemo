@@ -16,6 +16,7 @@ namespace WebFormDemo
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+            Session["UserSessionID"] = Guid.NewGuid().ToString();
             Session["UserName"] = txtUsername.Value;
             Response.Redirect("~/default1.aspx");
         }

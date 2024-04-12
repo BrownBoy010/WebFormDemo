@@ -395,7 +395,6 @@
     </Compile>
     <Compile Include="CLBOPPolicyDetails.aspx.cs">
       <DependentUpon>CLBOPPolicyDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CLBOPPolicyDetails.aspx.designer.cs">
       <DependentUpon>CLBOPPolicyDetails.aspx</DependentUpon>
