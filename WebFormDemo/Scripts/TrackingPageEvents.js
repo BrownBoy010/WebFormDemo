@@ -72,5 +72,23 @@ async function FetchPageData(tabContainer, activeTabIndex, sourceEvent) {
                 await TrackingBeacon.trackPageEvent(jsonData, "StateSpecificInfo");
             }
             break;
+        case "BuildingDetails":
+            iframe = document.getElementById("iBuildingDetails");
+            if (iframe) {
+                iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+                jsonData = Object.assign(jsonData, {
+                    "ddlBuildingLocation": iframeDocument.getElementById("ddlBuildingLocation").value,
+                    "txtBuildingDescription": iframeDocument.getElementById("txtBuildingDescription").value,
+                    "txtBuildingNumber": iframeDocument.getElementById("txtBuildingNumber").value,
+                    "ddlPropertyType": iframeDocument.getElementById("ddlPropertyType").value,
+                    "ddlCommunityClassification": iframeDocument.getElementById("ddlCommunityClassification").value,
+                    "ddlConstructionType": iframeDocument.getElementById("ddlConstructionType").value,
+                    "txtYearOfConstruction": iframeDocument.getElementById("txtYearOfConstruction").value,
+                    "chkAutomaticSprinklerSystem": iframeDocument.getElementById("chkAutomaticSprinklerSystem").value,
+                    "ddlRoofType": iframeDocument.getElementById("ddlRoofType").value
+                });
+                await TrackingBeacon.trackPageEvent(jsonData, "BuildingDetails");
+            }
+            break;
     }
 }
