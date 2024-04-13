@@ -20,32 +20,12 @@
 var TrackingBeacon = function (argUrl) {
     var urlToPost = argUrl;
     function sendTrackingInfo(objParam, methodName) {
-        objParam.referrer = document.referrer;
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (xhttp.status != 200) {
-                console.log('Status: ' + this.status + '\nHeaders: ' + JSON.stringify(this.getAllResponseHeaders()) + '\nBody: ' + this.responseText);
-            }
-        };
-        //trackPage
-        xhttp.open("POST", urlToPost + "/" + methodName, true);
-        xhttp.withCredentials = true;
-        xhttp.setRequestHeader("Content-type", "application/json");
+        var xhttp = PostMethod(objParam, urlToPost, methodName);
         var json = JSON.stringify(objParam);
         xhttp.send(json);
     };
     function sentTrackingEvents(objParam, pageName, methodName) {
-        objParam.referrer = document.referrer;
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function () {
-            if (xhttp.status != 200) {
-                console.log('Status: ' + this.status + '\nHeaders: ' + JSON.stringify(this.getAllResponseHeaders()) + '\nBody: ' + this.responseText);
-            }
-        };
-        //trackPage
-        xhttp.open("POST", urlToPost + "/" + methodName, true);
-        xhttp.withCredentials = true;
-        xhttp.setRequestHeader("Content-type", "application/json");
+        var xhttp = PostMethod(objParam, urlToPost, methodName);
         
         var data = {
             "pagename": pageName,
@@ -66,6 +46,21 @@ var TrackingBeacon = function (argUrl) {
     }
 }
 
+function PostMethod(objParam, urlToPost, methodName) {
+    objParam.referrer = document.referrer;
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (xhttp.status != 200) {
+            console.log('Status: ' + this.status + '\nHeaders: ' + JSON.stringify(this.getAllResponseHeaders()) + '\nBody: ' + this.responseText);
+        }
+    };
+    //trackPage
+    xhttp.open("POST", urlToPost + "/" + methodName, true);
+    xhttp.withCredentials = true;
+    xhttp.setRequestHeader("Content-type", "application/json");
+    return xhttp;
+}
+
 function onTabChanged(sender, args) {
     var userName = document.getElementById('hdnUserName').value;
 
@@ -76,6 +71,15 @@ function onTabChanged(sender, args) {
     // Extract information about the active tab
     var pageName = activeTab.get_headerTab().innerText;
     PageDataInfo(pageName, userName, userSessionID);
+
+    //alert(document.getElementById('hdrBuildingDetails'));
+    //Enable and disable based on the page view
+    // If page is having internal tabs then disable the next / previous buttons
+    //switch (pageName) {
+    //    case "BuildingDetails":
+    //        document.getElementById('policyNext').style.display = 'none';
+    //        break;
+    //}
 }
 
 function onPageLoad() {

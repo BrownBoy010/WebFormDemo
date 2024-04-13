@@ -139,5 +139,12 @@
         <%--<asp:Button ID="Button2" runat="server" Text="Next" OnClick="Button2_Click" CssClass="btn"/>--%>
         <br />
     </form>
+    <%--<script type="text/javascript">
+        window.onload = function () {
+            const prevButton = window.parent.document.getElementById("policyNext");
+            prevButton.style.float = 'right';
+            prevButton.style.display = 'block';
+        };
+    </script>--%>
 </body>
 </html>

@@ -69,20 +69,17 @@
                 </ajaxToolkit:TabPanel>
             </ajaxToolkit:TabContainer>
         </div>
-        <asp:HiddenField ID="hdnUserName" runat="server" />
-
-        <div style="text-align:center">
+        
+        <div style="text-align:center;">
             <asp:Button ID="policyPrevious" runat="server" Text="Previous" CssClass="btn"
                 OnClientClick="goToPreviousTab(); return false;" />
             <asp:Button ID="policyNext" runat="server" Text="Next" CssClass="btn"
                 OnClientClick="goToNextTab(); return false;" />
         </div>
 
+        <asp:HiddenField ID="hdnUserName" runat="server" />
         <asp:HiddenField ID="hdnUserSessionID" runat="server" />
         <asp:HiddenField ID="HiddenField1" runat="server" />
-
-        
-
 
     </form>
 </body>

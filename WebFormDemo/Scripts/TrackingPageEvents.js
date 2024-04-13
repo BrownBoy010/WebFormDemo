@@ -30,7 +30,8 @@ async function FetchPageData(tabContainer, activeTabIndex, sourceEvent) {
     let jsonData = {
         "sessionID": document.getElementById('hdnUserSessionID').value,
         "eventType": sourceEvent,
-        "pageName": headerText
+        "pageName": headerText,
+        "userId": document.getElementById('hdnUserName').value
     };
     
     switch (headerText) {

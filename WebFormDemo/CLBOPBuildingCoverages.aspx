@@ -59,9 +59,13 @@
         <br />
         <br />
         <asp:Button ID="Button4" runat="server" Text="Previous" OnClick="Button4_Click" CssClass="btn"/>
-
         <asp:Button ID="Button5" runat="server" Text="Next" OnClick="Button5_Click" CssClass="btn"/>
-
     </form>
+    <%--<script>
+        window.onload = function() {
+            const prevButton = window.parent.document.getElementById("policyPrevious");
+            prevButton.style.display = 'none';
+        };
+    </script>--%>
 </body>
 </html>

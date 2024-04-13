@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <link href="Content/TabPage.css" rel="stylesheet" />
-    <link href="Content/Common.css" rel="stylesheet" />
+    <link href="Content/Common.css" rel="stylesheet" />    
 </head>
 <body>
 
@@ -16,7 +16,7 @@
                 <a href="CLBOPBuildingDetails.aspx">Building Details</a>| <a href="CLBOPBuildingCoverages.aspx">Building Coverages</a>| <a href="CLBOPBuildingAdditionalCoverages.aspx">Building Additional Coverages</a> | 
                 <a href="CLBOPBuildingClassificationDetails.aspx">Class Details</a>| <a href="CLBOPBuildingClassificationCoverages.aspx">Class Coverages</a>|<a href="CLBOPBuildingClassificationAdditionalCoverages.aspx">Class Coverages</a>
             </div>
-            <h2>Building Details</h2>
+            <h2 id="hdrBuildingDetails">Building Details</h2>
             <p></p>
 
             <asp:Label ID="lblBuildingLocation" runat="server" Text="Building Location" style="display:block;"></asp:Label>

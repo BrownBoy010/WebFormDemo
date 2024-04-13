@@ -123,15 +123,6 @@ namespace WebFormDemo
         protected global::AjaxControlToolkit.TabPanel TabPanel9;
 
         /// <summary>
-        /// hdnUserName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HiddenField hdnUserName;
-
-        /// <summary>
         /// policyPrevious control.
         /// </summary>
         /// <remarks>
@@ -148,6 +139,15 @@ namespace WebFormDemo
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button policyNext;
+
+        /// <summary>
+        /// hdnUserName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hdnUserName;
 
         /// <summary>
         /// hdnUserSessionID control.
