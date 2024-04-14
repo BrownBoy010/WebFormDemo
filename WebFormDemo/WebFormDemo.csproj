@@ -416,6 +416,9 @@
     </Compile>
     <Compile Include="Models\BaseAtrributes.cs" />
     <Compile Include="Models\BuildingDetails.cs" />
+    <Compile Include="Models\BussinessOwners.cs" />
+    <Compile Include="Models\BussinessOwnersCoverages.cs" />
+    <Compile Include="Models\LocationDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuoteWizard.aspx.cs">
       <DependentUpon>QuoteWizard.aspx</DependentUpon>

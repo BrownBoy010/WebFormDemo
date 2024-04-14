@@ -33,58 +33,60 @@
         button[type="button"], button[type="submit"], .btn-group {
             margin-top: 20px;
         }
+
         .btn {
-            background-color: #007bff; 
+            background-color: #007bff;
             color: #ffffff;
             padding: 10px 20px;
             border: none;
             border-radius: 3px;
             cursor: pointer;
-            margin-top:5px;
-            margin-bottom:5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
-        .btn:hover {
-            background-color: #0056b3; 
-        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
     </style>
 </head>
 <body>
 
     <form id="form1" runat="server">
-            <h1>Location</h1>
+        <h1>Location</h1>
         <div>
             <a href="CLBOPLocationsDetails.aspx">Location Details</a>| <a href="CLBOPLocationCoverages.aspx">Location Coverages</a>| <a href="CLBOPLocationAdditionalCoverages.aspx">Location Additional Coverages</a>
         </div>
         <h3>Physical Location Address</h3>
         <div>
-            <label for="streetLine1">Street Line 1:</label>
-            <input type="text" id="streetLine1" name="streetLine1" />
+            <asp:Label runat="server" AssociatedControlID="streetLine1" Text="Street Line 1:"></asp:Label>
+            <asp:TextBox runat="server" ID="streetLine1"></asp:TextBox>
 
-            <label for="streetLine2">Street Line 2:</label>
-            <input type="text" id="streetLine2" name="streetLine2" />
+            <asp:Label runat="server" AssociatedControlID="streetLine2" Text="Street Line 2:"></asp:Label>
+            <asp:TextBox runat="server" ID="streetLine2"></asp:TextBox>
 
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city" />
+            <asp:Label runat="server" AssociatedControlID="city" Text="City:"></asp:Label>
+            <asp:TextBox runat="server" ID="city"></asp:TextBox>
 
-            <label for="state">State:</label>
-            <input type="text" id="state" name="state" />
+            <asp:Label runat="server" AssociatedControlID="state" Text="State:"></asp:Label>
+            <asp:TextBox runat="server" ID="state"></asp:TextBox>
 
-            <label for="stateDropdown">State:</label>
-            <select id="stateDropdown" name="stateDropdown">
-                <option value="CA">California</option>
-                <option value="BZ">Brazil</option>
-                <option value="IN">India</option>
-                <option value="CS">Costa Rica</option>
-            </select>
+            <asp:Label runat="server" AssociatedControlID="stateDropdown" Text="State:"></asp:Label>
+            <asp:DropDownList runat="server" ID="stateDropdown">
+                <asp:ListItem Value="CA">California</asp:ListItem>
+                <asp:ListItem Value="BZ">Brazil</asp:ListItem>
+                <asp:ListItem Value="IN">India</asp:ListItem>
+                <asp:ListItem Value="CS">Costa Rica</asp:ListItem>
+            </asp:DropDownList>
 
-            <label for="zipCode">Zip Code:</label>
-            <input type="text" id="zipCode" name="zipCode" />
+            <asp:Label runat="server" AssociatedControlID="zipCode" Text="Zip Code:"></asp:Label>
+            <asp:TextBox runat="server" ID="zipCode"></asp:TextBox>
 
-            <label for="territoryCode">Territory Code:</label>
-            <input type="text" id="territoryCode" name="territoryCode" />
+            <asp:Label runat="server" AssociatedControlID="territoryCode" Text="Territory Code:"></asp:Label>
+            <asp:TextBox runat="server" ID="territoryCode"></asp:TextBox>
 
-            <label for="protectionClass">Protection Class:</label>
-            <input type="text" id="protectionClass" name="protectionClass" />
+            <asp:Label runat="server" AssociatedControlID="protectionClass" Text="Protection Class:"></asp:Label>
+            <asp:TextBox runat="server" ID="protectionClass"></asp:TextBox>
         </div>
 
         <%--<button type="button" id="previousButton" runat="server" onclick="previousButton_Click">Previous</button>
